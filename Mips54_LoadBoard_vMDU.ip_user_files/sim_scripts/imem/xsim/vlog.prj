@@ -1,0 +1,14 @@
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" 
+sv xil_defaultlib "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" 
+verilog dist_mem_gen_v8_0_10 "../../../ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" 
+verilog xil_defaultlib "../../../../Mips54_LoadBoard_vMDU.srcs/sources_1/ip/imem/sim/imem.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

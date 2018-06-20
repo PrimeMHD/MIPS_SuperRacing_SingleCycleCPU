@@ -1,0 +1,71 @@
+# do {LoadBoard_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 22:39:41 on Jun 15,2018
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../Mips54_LoadBoard_vMDU.srcs/sources_1/imports/54cpu_up" "+incdir+../../../../Mips54_LoadBoard_vMDU.ip_user_files/ipstatic/clk_wiz_v5_3_1" LoadBoard_tb_func_synth.v ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v 
+# -- Compiling module clk_wiz_0
+# -- Compiling module dmem
+# -- Compiling module imem
+# -- Compiling module ALU
+# -- Compiling module Asynchronous_D_FF
+# -- Compiling module Asynchronous_D_FF_0
+# -- Compiling module Asynchronous_D_FF_1
+# -- Compiling module Asynchronous_D_FF_10
+# -- Compiling module Asynchronous_D_FF_11
+# -- Compiling module Asynchronous_D_FF_12
+# -- Compiling module Asynchronous_D_FF_13
+# -- Compiling module Asynchronous_D_FF_14
+# -- Compiling module Asynchronous_D_FF_15
+# -- Compiling module Asynchronous_D_FF_16
+# -- Compiling module Asynchronous_D_FF_17
+# -- Compiling module Asynchronous_D_FF_18
+# -- Compiling module Asynchronous_D_FF_19
+# -- Compiling module Asynchronous_D_FF_2
+# -- Compiling module Asynchronous_D_FF_20
+# -- Compiling module Asynchronous_D_FF_21
+# -- Compiling module Asynchronous_D_FF_22
+# -- Compiling module Asynchronous_D_FF_23
+# -- Compiling module Asynchronous_D_FF_24
+# -- Compiling module Asynchronous_D_FF_25
+# -- Compiling module Asynchronous_D_FF_26
+# -- Compiling module Asynchronous_D_FF_27
+# -- Compiling module Asynchronous_D_FF_28
+# -- Compiling module Asynchronous_D_FF_29
+# -- Compiling module Asynchronous_D_FF_3
+# -- Compiling module Asynchronous_D_FF_30
+# -- Compiling module Asynchronous_D_FF_4
+# -- Compiling module Asynchronous_D_FF_5
+# -- Compiling module Asynchronous_D_FF_6
+# -- Compiling module Asynchronous_D_FF_7
+# -- Compiling module Asynchronous_D_FF_8
+# -- Compiling module Asynchronous_D_FF_9
+# -- Compiling module CP0
+# -- Compiling module ControlUnit
+# -- Compiling module DIV
+# -- Compiling module DIVU
+# -- Compiling module MDU
+# -- Compiling module MULT
+# -- Compiling module Slt_32
+# -- Compiling module Subber_32
+# -- Compiling module clk_wiz_0_clk_wiz_0_clk_wiz
+# -- Compiling module cpu
+# -- Compiling module pcreg
+# -- Compiling module regfile
+# -- Compiling module sccomp_dataflow
+# -- Compiling module seg7x16
+# -- Compiling module dmem_dist_mem_gen_v8_0_10
+# -- Compiling module dmem_dist_mem_gen_v8_0_10_synth
+# -- Compiling module dmem_spram
+# -- Compiling module imem_dist_mem_gen_v8_0_10
+# -- Compiling module glbl
+# -- Compiling module LoadBoard_tb
+# 
+# Top level modules:
+# 	glbl
+# 	LoadBoard_tb
+# End time: 22:39:42 on Jun 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

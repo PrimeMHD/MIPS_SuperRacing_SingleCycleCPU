@@ -1,0 +1,114 @@
+# do {LoadBoard_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.LoadBoard_tb xil_defaultlib.glbl 
+# Start time: 22:39:52 on Jun 15,2018
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.LoadBoard_tb
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.clk_wiz_0
+# Loading xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+# Loading unisims_ver.BUFG
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading xil_defaultlib.imem
+# Loading xil_defaultlib.imem_dist_mem_gen_v8_0_10
+# Loading unisims_ver.GND
+# Loading unisims_ver.LUT6
+# Loading unisims_ver.LUT5
+# Loading unisims_ver.LUT3
+# Loading unisims_ver.LUT2
+# Loading unisims_ver.LUT4
+# Loading unisims_ver.MUXF7
+# Loading unisims_ver.MUXF8
+# Loading unisims_ver.OBUF
+# Loading unisims_ver.LUT1
+# Loading unisims_ver.CARRY4
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.MDU
+# Loading xil_defaultlib.DIV
+# Loading unisims_ver.FDCE
+# Loading unisims_ver.FDRE
+# Loading xil_defaultlib.DIVU
+# Loading xil_defaultlib.MULT
+# Loading unisims_ver.DSP48E1
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.ALU
+# Loading xil_defaultlib.Subber_32
+# Loading xil_defaultlib.Slt_32
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.ControlUnit
+# Loading unisims_ver.LDCE
+# Loading xil_defaultlib.pcreg
+# Loading xil_defaultlib.Asynchronous_D_FF
+# Loading xil_defaultlib.Asynchronous_D_FF_0
+# Loading xil_defaultlib.Asynchronous_D_FF_1
+# Loading xil_defaultlib.Asynchronous_D_FF_2
+# Loading xil_defaultlib.Asynchronous_D_FF_3
+# Loading xil_defaultlib.Asynchronous_D_FF_4
+# Loading xil_defaultlib.Asynchronous_D_FF_5
+# Loading xil_defaultlib.Asynchronous_D_FF_6
+# Loading xil_defaultlib.Asynchronous_D_FF_7
+# Loading xil_defaultlib.Asynchronous_D_FF_8
+# Loading xil_defaultlib.Asynchronous_D_FF_9
+# Loading xil_defaultlib.Asynchronous_D_FF_10
+# Loading xil_defaultlib.Asynchronous_D_FF_11
+# Loading xil_defaultlib.Asynchronous_D_FF_12
+# Loading xil_defaultlib.Asynchronous_D_FF_13
+# Loading xil_defaultlib.Asynchronous_D_FF_14
+# Loading xil_defaultlib.Asynchronous_D_FF_15
+# Loading xil_defaultlib.Asynchronous_D_FF_16
+# Loading xil_defaultlib.Asynchronous_D_FF_17
+# Loading xil_defaultlib.Asynchronous_D_FF_18
+# Loading xil_defaultlib.Asynchronous_D_FF_19
+# Loading xil_defaultlib.Asynchronous_D_FF_20
+# Loading xil_defaultlib.Asynchronous_D_FF_21
+# Loading xil_defaultlib.Asynchronous_D_FF_22
+# Loading xil_defaultlib.Asynchronous_D_FF_23
+# Loading xil_defaultlib.Asynchronous_D_FF_24
+# Loading xil_defaultlib.Asynchronous_D_FF_25
+# Loading xil_defaultlib.Asynchronous_D_FF_26
+# Loading xil_defaultlib.Asynchronous_D_FF_27
+# Loading xil_defaultlib.Asynchronous_D_FF_28
+# Loading xil_defaultlib.Asynchronous_D_FF_29
+# Loading xil_defaultlib.Asynchronous_D_FF_30
+# Loading xil_defaultlib.dmem
+# Loading xil_defaultlib.dmem_dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.dmem_dist_mem_gen_v8_0_10_synth
+# Loading xil_defaultlib.dmem_spram
+# Loading unisims_ver.RAM256X1S
+# Loading xil_defaultlib.seg7x16
+# Loading unisims_ver.FDPE
+# Loading xil_defaultlib.glbl
+# ** Warning: (vsim-3008) ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(44): [CNNODP] - Component name (ip_in) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb File: ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v
+# ** Error: (vsim-3043) ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(44): Unresolved reference to 'ip_in' in inst_scc.ip_in.
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb File: ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v
+# ** Warning: (vsim-3008) ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(55): [CNNODP] - Component name (array_reg) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb File: ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v
+# ** Error: (vsim-3043) ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(55): Unresolved reference to 'array_reg' in inst_scc.sccpu.cpu_ref.array_reg.
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb File: ../../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v
+# Loading unisims_ver.x_lut3_mux4
+# Loading unisims_ver.x_lut2_mux4
+# Loading unisims_ver.x_lut1_mux2
+# Loading unisims_ver.ffsrce_fdce
+# Loading unisims_ver.sffsrce_fdre
+# Loading unisims_ver.latchsre_ldce
+# Loading unisims_ver.ffsrce_fdpe
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./LoadBoard_tb_simulate.do PAUSED at line 9
+# End time: 22:44:40 on Jun 15,2018, Elapsed time: 0:04:48
+# Errors: 2, Warnings: 2

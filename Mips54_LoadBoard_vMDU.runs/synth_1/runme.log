@@ -1,0 +1,1034 @@
+
+*** Running vivado
+    with args -log MipsSuperRacing.vds -m64 -mode batch -messageDb vivado.pb -notrace -source MipsSuperRacing.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source MipsSuperRacing.tcl -notrace
+Command: synth_design -top MipsSuperRacing -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14800 
+WARNING: [Synth 8-2277] keyword 'unsigned' is not allowed here in this mode of verilog [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/multu.v:4]
+WARNING: [Synth 8-2277] keyword 'unsigned' is not allowed here in this mode of verilog [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/multu.v:5]
+WARNING: [Synth 8-2277] keyword 'unsigned' is not allowed here in this mode of verilog [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/multu.v:6]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 317.840 ; gain = 110.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MipsSuperRacing' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'cpu' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/cpu.v:19]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:19]
+INFO: [Synth 8-638] synthesizing module 'Adder_32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:71]
+INFO: [Synth 8-256] done synthesizing module 'Adder_32' (2#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:71]
+INFO: [Synth 8-638] synthesizing module 'Subber_32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:112]
+INFO: [Synth 8-256] done synthesizing module 'Subber_32' (3#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:112]
+INFO: [Synth 8-638] synthesizing module 'barrelshifter32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:153]
+INFO: [Synth 8-256] done synthesizing module 'barrelshifter32' (4#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:153]
+INFO: [Synth 8-638] synthesizing module 'BitCal_32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:198]
+INFO: [Synth 8-256] done synthesizing module 'BitCal_32' (5#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:198]
+INFO: [Synth 8-638] synthesizing module 'Lui_32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:218]
+INFO: [Synth 8-256] done synthesizing module 'Lui_32' (6#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:218]
+INFO: [Synth 8-638] synthesizing module 'Slt_32' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:232]
+INFO: [Synth 8-256] done synthesizing module 'Slt_32' (7#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:232]
+WARNING: [Synth 8-3848] Net answers[9] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:29]
+WARNING: [Synth 8-3848] Net zeros[9] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:30]
+WARNING: [Synth 8-3848] Net carrys[4] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net carrys[5] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net carrys[6] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net carrys[7] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net carrys[8] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net carrys[9] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:31]
+WARNING: [Synth 8-3848] Net negatives[9] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:32]
+WARNING: [Synth 8-3848] Net overflows[4] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[5] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[6] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[7] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[8] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[9] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[10] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[11] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[12] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[13] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+WARNING: [Synth 8-3848] Net overflows[14] in module/entity ALU does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:33]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (8#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:19]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/pcreg.v:1]
+INFO: [Synth 8-638] synthesizing module 'Asynchronous_D_FF' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/pcreg.v:46]
+INFO: [Synth 8-256] done synthesizing module 'Asynchronous_D_FF' (9#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/pcreg.v:46]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (10#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/pcreg.v:1]
+INFO: [Synth 8-638] synthesizing module 'MDU' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MDU.v:24]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MDU.v:53]
+INFO: [Synth 8-638] synthesizing module 'MULT' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/mult.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MULT' (11#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/mult.v:3]
+INFO: [Synth 8-638] synthesizing module 'MULTU' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/multu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'MULTU' (12#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/multu.v:3]
+INFO: [Synth 8-638] synthesizing module 'DIV' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:1]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:18]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:18]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:20]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:18]
+WARNING: [Synth 8-5788] Register r_reg in module DIV is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:54]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (13#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:1]
+INFO: [Synth 8-638] synthesizing module 'DIVU' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:23]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:40]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:40]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:42]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:40]
+INFO: [Synth 8-256] done synthesizing module 'DIVU' (14#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MDU' (15#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MDU.v:24]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:121]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:457]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:524]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:119]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (16#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:21]
+INFO: [Synth 8-638] synthesizing module 'regfile' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/regfile.v:19]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (17#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/regfile.v:19]
+INFO: [Synth 8-638] synthesizing module 'CP0' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/cp0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (18#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/cp0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (19#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/cpu.v:19]
+INFO: [Synth 8-638] synthesizing module 'VGA' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga.v:3]
+INFO: [Synth 8-638] synthesizing module 'gmem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/gmem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'gmem' (20#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/gmem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'VGA_Controller' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:3]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_sync.v:9]
+	Parameter PAL bound to: 640 - type: integer 
+	Parameter LAF bound to: 480 - type: integer 
+	Parameter PLD bound to: 800 - type: integer 
+	Parameter LFD bound to: 525 - type: integer 
+	Parameter HPW bound to: 96 - type: integer 
+	Parameter HFP bound to: 16 - type: integer 
+	Parameter VPW bound to: 2 - type: integer 
+	Parameter VFP bound to: 10 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_sync.v:53]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_sync.v:76]
+WARNING: [Synth 8-5788] Register line_cnt_reg in module vga_sync is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_sync.v:37]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (21#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_sync.v:9]
+INFO: [Synth 8-256] done synthesizing module 'VGA_Controller' (22#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:3]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (23#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga.v:3]
+INFO: [Synth 8-638] synthesizing module 'IO_Interface' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/IO_Interface.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IO_Interface' (24#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/IO_Interface.v:23]
+INFO: [Synth 8-638] synthesizing module 'imem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/imem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imem' (25#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/imem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dmem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/dmem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dmem' (26#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/realtime/dmem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/seg7x16.v:86]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (27#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/seg7x16.v:21]
+WARNING: [Synth 8-3848] Net reset in module/entity MipsSuperRacing does not have driver. [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:63]
+INFO: [Synth 8-256] done synthesizing module 'MipsSuperRacing' (28#1) [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:23]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[5]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[4]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[3]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[2]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[1]
+WARNING: [Synth 8-3331] design VGA_Controller has unconnected port data_in[0]
+WARNING: [Synth 8-3331] design VGA has unconnected port sys_rst_n
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[31]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[30]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[29]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[28]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[27]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[26]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[25]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[24]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[23]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[22]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[21]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[20]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[19]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[18]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[17]
+WARNING: [Synth 8-3331] design Lui_32 has unconnected port iData_b[16]
+WARNING: [Synth 8-3331] design MipsSuperRacing has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 352.594 ; gain = 145.047
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin sccpu:reset to constant 0 [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:61]
+WARNING: [Synth 8-3295] tying undriven pin seg7:reset to constant 0 [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:108]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 352.594 ; gain = 145.047
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'clk_divider' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:60]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dmem' instantiated as 'scdmem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:107]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'gmem' instantiated as 'm_vga/vga_gmem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga.v:20]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'imem' instantiated as 'imem' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v:105]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp/imem_in_context.xdc] for cell 'imem'
+Finished Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp/imem_in_context.xdc] for cell 'imem'
+Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_2/dmem_in_context.xdc] for cell 'scdmem'
+Finished Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_2/dmem_in_context.xdc] for cell 'scdmem'
+Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_3/clk_wiz_0_in_context.xdc] for cell 'clk_divider'
+Finished Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_3/clk_wiz_0_in_context.xdc] for cell 'clk_divider'
+Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_4/gmem_in_context.xdc] for cell 'm_vga/vga_gmem'
+Finished Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_4/gmem_in_context.xdc] for cell 'm_vga/vga_gmem'
+Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/constrs_1/imports/new/Mips54_LoadBoard.xdc]
+Finished Parsing XDC File [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/constrs_1/imports/new/Mips54_LoadBoard.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/constrs_1/imports/new/Mips54_LoadBoard.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MipsSuperRacing_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/MipsSuperRacing_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 671.137 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'm_vga/vga_gmem' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_3/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100mhz. (constraint file  D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.runs/synth_1/.Xil/Vivado-12608-DESKTOP-HD/dcp_3/clk_wiz_0_in_context.xdc, line 4).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:262]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:267]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:262]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:267]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:262]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:267]
+INFO: [Synth 8-5545] ROM "oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIV.v:18]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/DIVU.v:40]
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "wdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "load_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0regs_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "line_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_video_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "hsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_video_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:140]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:138]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:138]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:138]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <unary minus> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:138]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:149]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-41] '_-' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:145]
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'oData_C_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:275]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:50]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:51]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_wena_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:128]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_data_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:129]
+WARNING: [Synth 8-327] inferring latch for variable 'wdata_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:123]
+WARNING: [Synth 8-327] inferring latch for variable 'pc_in_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:126]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_a_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:124]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_b_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:125]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_op_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:127]
+WARNING: [Synth 8-327] inferring latch for variable 'ExcCode_toCP0_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:130]
+WARNING: [Synth 8-327] inferring latch for variable 'mul_div_control_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:131]
+WARNING: [Synth 8-327] inferring latch for variable 'load_data_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ControlUnit.v:582]
+WARNING: [Synth 8-327] inferring latch for variable 'data_tovga_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/IO_Interface.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'data_toseg7_reg' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/IO_Interface.v:63]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 12    
+	   2 Input     32 Bit       Adders := 29    
+	   2 Input     20 Bit       Adders := 1     
+	   4 Input     19 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 3     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 7     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 74    
+	               19 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 76    
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 102   
+	   3 Input     32 Bit        Muxes := 5     
+	   4 Input     32 Bit        Muxes := 6     
+	  25 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 1     
+	   7 Input     32 Bit        Muxes := 1     
+	  29 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 6     
+	   4 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	  33 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	  29 Input      4 Bit        Muxes := 2     
+	  25 Input      4 Bit        Muxes := 2     
+	  25 Input      3 Bit        Muxes := 6     
+	  29 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 21    
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 92    
+	   3 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 2     
+	  29 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 6     
+	  25 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MipsSuperRacing 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module Adder_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module Subber_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module barrelshifter32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 25    
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module BitCal_32 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module Lui_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Slt_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module Asynchronous_D_FF 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module MULT 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module MULTU 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module DIV 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module DIVU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module MDU 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	  25 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 2     
+	   7 Input     32 Bit        Muxes := 1     
+	  29 Input     32 Bit        Muxes := 2     
+	   8 Input     32 Bit        Muxes := 1     
+	  33 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  29 Input      4 Bit        Muxes := 2     
+	  25 Input      4 Bit        Muxes := 2     
+	  25 Input      3 Bit        Muxes := 6     
+	  29 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	  29 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module CP0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 30    
+	   3 Input      1 Bit        Muxes := 3     
+Module cpu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 4     
+Module VGA_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input     20 Bit       Adders := 1     
+	   4 Input     19 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 3     
++---Registers : 
+	               19 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 6     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     19 Bit        Muxes := 6     
+	   4 Input     19 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module IO_Interface 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:267]
+INFO: [Synth 8-5545] ROM "sbbu_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sbbu_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sra_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sll_slr_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "srl_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "and_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "or_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "xor_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nor_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "slt/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sltu/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/ALU.v:267]
+INFO: [Synth 8-5545] ROM "lui_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sbbu_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sbbu_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "and_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "or_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "xor_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nor_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sltu/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "slt/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sra_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "srl_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sll_slr_block/oData_Z0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP multiplier/z, operation Mode is: A*B.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: Generating DSP multiplier/z, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: Generating DSP multiplier/z, operation Mode is: A*B.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: Generating DSP multiplier/z, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+DSP Report: operator multiplier/z is absorbed into DSP multiplier/z.
+INFO: [Synth 8-4471] merging register 'm_vga/m_vga_controller/road_margin_reg[10:0]' into 'm_vga/m_vga_controller/road_margin_reg[10:0]' [D:/WeCloudSync/6.MI_PROJECTS/VIVADO_PROJECT/Mips54_App/Mips54_App/Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/vga_controller.v:66]
+INFO: [Synth 8-5546] ROM "m_vga/m_vga_controller/vga_syn_inst/line_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_vga/m_vga_controller/vga_syn_inst/v_video_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_vga/m_vga_controller/vga_syn_inst/h_video_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_vga/m_vga_controller/vga_syn_inst/hsync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "m_vga/m_vga_controller/vga_syn_inst/vsync" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP m_vga/m_vga_controller/address_bg_reg, operation Mode is: C+A*(B:0x140).
+DSP Report: register m_vga/m_vga_controller/address_bg_reg is absorbed into DSP m_vga/m_vga_controller/address_bg_reg.
+DSP Report: operator m_vga/m_vga_controller/address_bg0 is absorbed into DSP m_vga/m_vga_controller/address_bg_reg.
+DSP Report: operator m_vga/m_vga_controller/address_bg1 is absorbed into DSP m_vga/m_vga_controller/address_bg_reg.
+DSP Report: Generating DSP m_vga/m_vga_controller/modi_address_sig_road2, operation Mode is: C-A2*(B:0x140).
+DSP Report: register m_vga/m_vga_controller/road_margin_reg is absorbed into DSP m_vga/m_vga_controller/modi_address_sig_road2.
+DSP Report: operator m_vga/m_vga_controller/modi_address_sig_road2 is absorbed into DSP m_vga/m_vga_controller/modi_address_sig_road2.
+DSP Report: operator m_vga/m_vga_controller/modi_address_sig_road3 is absorbed into DSP m_vga/m_vga_controller/modi_address_sig_road2.
+DSP Report: Generating DSP m_vga/m_vga_controller/modi_address_sig_road3, operation Mode is: A2*(B:0x140).
+DSP Report: register m_vga/m_vga_controller/road_margin_reg is absorbed into DSP m_vga/m_vga_controller/modi_address_sig_road3.
+DSP Report: operator m_vga/m_vga_controller/modi_address_sig_road3 is absorbed into DSP m_vga/m_vga_controller/modi_address_sig_road3.
+DSP Report: Generating DSP p_1_out, operation Mode is: C+(D-A)*(B:0x5a)+1.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+WARNING: [Synth 8-3331] design MipsSuperRacing has unconnected port rst
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 671.137 ; gain = 463.590
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name     | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MDU             | A*B                | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MDU             | (PCIN>>17)+A*B     | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MDU             | A*B                | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MDU             | (PCIN>>17)+A*B     | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MipsSuperRacing | C+A*(B:0x140)      | 19     | 10     | 19     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|VGA_Controller  | C-A2*(B:0x140)     | 11     | 10     | 20     | -      | 32     | 1    | 0    | 0    | -    | -     | 0    | 0    | 
+|VGA_Controller  | A2*(B:0x140)       | 11     | 10     | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|VGA_Controller  | C+(D-A)*(B:0x5a)+1 | 13     | 8      | 19     | 11     | 19     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
++----------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sccpu/i_ControlUnit/\ExcCode_toCP0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg7/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (slt/oData_C_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (sltu/oData_C_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (carry_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (overflow_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (ExcCode_toCP0_reg[1]) is unused and will be removed from module ControlUnit.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[5]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[4]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[3]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[2]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[1]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (m_io_interface/data_tovga_reg[0]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (seg7/o_seg_r_reg[7]) is unused and will be removed from module MipsSuperRacing.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 671.137 ; gain = 463.590
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 671.137 ; gain = 463.590
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_divider/clk_out1' to pin 'clk_divider/bbstub_clk_out1/O'
+INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 748.953 ; gain = 541.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:15 . Memory (MB): peak = 781.523 ; gain = 573.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\sccpu/cpu_ref/array_reg_reg[0][7] )
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][31]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][30]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][29]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][28]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][27]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][26]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][25]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][24]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][23]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][22]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][21]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][20]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][19]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][18]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][17]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][16]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][15]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][14]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][13]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][12]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][11]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][10]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][9]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][8]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][7]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][6]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][5]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][4]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][3]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][2]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][1]) is unused and will be removed from module MipsSuperRacing.
+WARNING: [Synth 8-3332] Sequential element (sccpu/cpu_ref/array_reg_reg[0][0]) is unused and will be removed from module MipsSuperRacing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 825.051 ; gain = 617.504
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |imem          |         1|
+|3     |dmem          |         1|
+|4     |gmem          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |dmem      |     1|
+|3     |gmem      |     1|
+|4     |imem      |     1|
+|5     |BUFG      |     6|
+|6     |CARRY4    |   261|
+|7     |DSP48E1   |     4|
+|8     |DSP48E1_1 |     1|
+|9     |DSP48E1_2 |     1|
+|10    |DSP48E1_3 |     1|
+|11    |DSP48E1_4 |     1|
+|12    |LUT1      |   412|
+|13    |LUT2      |   497|
+|14    |LUT3      |   443|
+|15    |LUT4      |   312|
+|16    |LUT5      |   486|
+|17    |LUT6      |  1485|
+|18    |MUXF7     |   498|
+|19    |MUXF8     |    84|
+|20    |FDCE      |    15|
+|21    |FDRE      |  2516|
+|22    |LD        |   261|
+|23    |IBUF      |     6|
+|24    |OBUF      |    30|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------+---------------------+------+
+|      |Instance             |Module               |Cells |
++------+---------------------+---------------------+------+
+|1     |top                  |                     |  7397|
+|2     |  m_io_interface     |IO_Interface         |    61|
+|3     |  m_vga              |VGA                  |   612|
+|4     |    m_vga_controller |VGA_Controller       |   600|
+|5     |      vga_syn_inst   |vga_sync             |   340|
+|6     |  sccpu              |cpu                  |  6432|
+|7     |    I_MDU            |MDU                  |   929|
+|8     |      DIV            |DIV                  |   447|
+|9     |      DIVU           |DIVU                 |   268|
+|10    |      multiplier     |MULT                 |   106|
+|11    |    cpu_ref          |regfile              |  2515|
+|12    |    i_ALU            |ALU                  |    28|
+|13    |      sbbu_block     |Subber_32            |    16|
+|14    |      slt            |Slt_32               |    12|
+|15    |    i_CP0            |CP0                  |  1643|
+|16    |    i_ControlUnit    |ControlUnit          |  1079|
+|17    |    i_pcreg          |pcreg                |   199|
+|18    |      a0             |Asynchronous_D_FF    |     2|
+|19    |      a1             |Asynchronous_D_FF_0  |     4|
+|20    |      a10            |Asynchronous_D_FF_1  |     3|
+|21    |      a11            |Asynchronous_D_FF_2  |     3|
+|22    |      a12            |Asynchronous_D_FF_3  |     3|
+|23    |      a13            |Asynchronous_D_FF_4  |     3|
+|24    |      a14            |Asynchronous_D_FF_5  |     3|
+|25    |      a15            |Asynchronous_D_FF_6  |     3|
+|26    |      a16            |Asynchronous_D_FF_7  |     3|
+|27    |      a17            |Asynchronous_D_FF_8  |     3|
+|28    |      a18            |Asynchronous_D_FF_9  |     3|
+|29    |      a19            |Asynchronous_D_FF_10 |     3|
+|30    |      a2             |Asynchronous_D_FF_11 |    93|
+|31    |      a20            |Asynchronous_D_FF_12 |     3|
+|32    |      a21            |Asynchronous_D_FF_13 |     3|
+|33    |      a22            |Asynchronous_D_FF_14 |    16|
+|34    |      a23            |Asynchronous_D_FF_15 |     3|
+|35    |      a24            |Asynchronous_D_FF_16 |     3|
+|36    |      a25            |Asynchronous_D_FF_17 |     3|
+|37    |      a26            |Asynchronous_D_FF_18 |     3|
+|38    |      a27            |Asynchronous_D_FF_19 |     3|
+|39    |      a28            |Asynchronous_D_FF_20 |     3|
+|40    |      a29            |Asynchronous_D_FF_21 |     3|
+|41    |      a3             |Asynchronous_D_FF_22 |     3|
+|42    |      a30            |Asynchronous_D_FF_23 |     3|
+|43    |      a31            |Asynchronous_D_FF_24 |     3|
+|44    |      a4             |Asynchronous_D_FF_25 |     3|
+|45    |      a5             |Asynchronous_D_FF_26 |     3|
+|46    |      a6             |Asynchronous_D_FF_27 |     3|
+|47    |      a7             |Asynchronous_D_FF_28 |     3|
+|48    |      a8             |Asynchronous_D_FF_29 |     3|
+|49    |      a9             |Asynchronous_D_FF_30 |     3|
+|50    |  seg7               |seg7x16              |   143|
++------+---------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 825.051 ; gain = 617.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 60 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:10 . Memory (MB): peak = 825.051 ; gain = 269.625
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 825.051 ; gain = 617.504
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 536 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 261 instances were transformed.
+  LD => LDCE: 261 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+253 Infos, 125 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:01:22 . Memory (MB): peak = 825.051 ; gain = 592.641
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 825.051 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 19 19:44:29 2018...

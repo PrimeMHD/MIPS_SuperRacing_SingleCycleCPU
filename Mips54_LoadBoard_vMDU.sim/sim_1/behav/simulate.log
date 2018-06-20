@@ -1,0 +1,249 @@
+# do {LoadBoard_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L xpm -L dist_mem_gen_v8_0_10 -lib xil_defaultlib xil_defaultlib.LoadBoard_tb xil_defaultlib.glbl 
+# Start time: 02:54:00 on Jun 17,2018
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.LoadBoard_tb
+# Loading xil_defaultlib.MipsSuperRacing
+# Loading xil_defaultlib.clk_wiz_0
+# Loading xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+# Loading unisims_ver.BUFG
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.ALU
+# Loading xil_defaultlib.Adder_32
+# Loading xil_defaultlib.Subber_32
+# Loading xil_defaultlib.barrelshifter32
+# Loading xil_defaultlib.BitCal_32
+# Loading xil_defaultlib.Lui_32
+# Loading xil_defaultlib.Slt_32
+# Loading xil_defaultlib.pcreg
+# Loading xil_defaultlib.Asynchronous_D_FF
+# Loading xil_defaultlib.MDU
+# Loading xil_defaultlib.MULT
+# Loading xil_defaultlib.MULTU
+# Loading xil_defaultlib.DIV
+# Loading xil_defaultlib.DIVU
+# Loading xil_defaultlib.ControlUnit
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.VGA
+# Loading xil_defaultlib.gmem
+# Loading xil_defaultlib.gmem_blk_mem_gen_v8_3_3
+# Loading unisims_ver.GND
+# Loading xil_defaultlib.gmem_blk_mem_gen_v8_3_3_synth
+# Loading xil_defaultlib.gmem_blk_mem_gen_top
+# Loading xil_defaultlib.gmem_blk_mem_gen_generic_cstr
+# Loading xil_defaultlib.gmem_blk_mem_gen_mux
+# Loading unisims_ver.MUXF7
+# Loading unisims_ver.LUT6
+# Loading unisims_ver.LUT5
+# Loading unisims_ver.LUT4
+# Loading unisims_ver.MUXF8
+# Loading unisims_ver.FDRE
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init
+# Loading unisims_ver.RAMB36E1
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized9
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized9
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized10
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized10
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized11
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized11
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized12
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized12
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized13
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized13
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized14
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized14
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized15
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized15
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized16
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized16
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized17
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized17
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized18
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized18
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized0
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized0
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized19
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized19
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized20
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized20
+# Loading unisims_ver.LUT2
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized21
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized21
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized22
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized22
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized23
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized23
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized24
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized24
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized25
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized25
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized26
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized26
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized27
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized27
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized28
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized28
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized1
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized1
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized29
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized29
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized30
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized30
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized31
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized31
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized32
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized32
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized33
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized33
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized34
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized34
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized35
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized35
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized36
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized36
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized37
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized37
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized38
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized38
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized2
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized2
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized39
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized39
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized40
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized40
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized41
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized41
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized42
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized42
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized43
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized43
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized44
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized44
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized45
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized45
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized46
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized46
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized47
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized47
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized48
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized48
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized3
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized3
+# Loading unisims_ver.RAMB18E1
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized49
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized49
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized50
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized50
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized51
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized51
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized52
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized52
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized53
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized53
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized54
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized54
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized55
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized55
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized56
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized56
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized57
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized57
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized58
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized58
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized4
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized4
+# Loading unisims_ver.LUT3
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized59
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized59
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized60
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized60
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized61
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized61
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized62
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized62
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized63
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized63
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized64
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized64
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized65
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized65
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized66
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized66
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized67
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized67
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized68
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized68
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized5
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized5
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized69
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized69
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized70
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized70
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized71
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized71
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized72
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized72
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized73
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized73
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized74
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized74
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized75
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized75
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized76
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized76
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized77
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized77
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized78
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized78
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized6
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized6
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized79
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized79
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized7
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized7
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_width__parameterized8
+# Loading xil_defaultlib.gmem_blk_mem_gen_prim_wrapper_init__parameterized8
+# Loading xil_defaultlib.VGA_Controller
+# Loading xil_defaultlib.vga_sync
+# Loading xil_defaultlib.IO_Interface
+# Loading xil_defaultlib.imem
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.dmem
+# Loading xil_defaultlib.glbl
+# Loading unisims_ver.RB36_INTERNAL_VLOG
+# Loading unisims_ver.RB18_INTERNAL_VLOG
+# ** Warning: (vsim-3015) ../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(91): [PCDPC] - Port size (4) does not match connection size (1) for port 'OutBlue'. The port definition is at: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb/imr File: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v
+# ** Warning: (vsim-3015) ../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(91): [PCDPC] - Port size (4) does not match connection size (1) for port 'OutGreen'. The port definition is at: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb/imr File: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v
+# ** Warning: (vsim-3015) ../../../Mips54_LoadBoard_vMDU.srcs/sim_1/imports/new/LoadBoard_tb.v(91): [PCDPC] - Port size (4) does not match connection size (1) for port 'OutRed'. The port definition is at: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v(33).
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb/imr File: ../../../Mips54_LoadBoard_vMDU.srcs/sources_1/verilog_code/MipsSuperRacing.v
+# Loading unisims_ver.sffsrce_fdre
+# Loading unisims_ver.x_lut2_mux4
+# Loading unisims_ver.x_lut3_mux4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1436 of file "imem.mif". Expected 2048, found 1435.    : ../../../Mips54_LoadBoard_vMDU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /LoadBoard_tb/imr/imem/inst
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# End time: 02:55:24 on Jun 17,2018, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 4
